@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-1",
+  "version": "1.0.0",
+  "description": "First Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sainihimanshu1999/Portfolio-Website.git"
+  },
+  "author": "Himanshu Saini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sainihimanshu1999/Portfolio-Website/issues"
+  },
+  "homepage": "https://github.com/sainihimanshu1999/Portfolio-Website#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
