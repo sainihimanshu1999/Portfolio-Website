@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "First Portfolio",
   "main": "index.js",
+  "homepage": "https://sainihimanshu1999.github.io/Portfolio-Website",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -15,8 +17,8 @@
   "bugs": {
     "url": "https://github.com/sainihimanshu1999/Portfolio-Website/issues"
   },
-  "homepage": "https://github.com/sainihimanshu1999/Portfolio-Website#readme",
   "dependencies": {
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.13.1"
   }
 }
