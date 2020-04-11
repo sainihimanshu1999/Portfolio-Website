@@ -41,28 +41,28 @@ $background-opacity:0.9;
 }
 
 
-//media query mixins 
-@mixin mediaSm {
-    @media screen and (max-width: 500px){
+//media query mixins
+
+@mixin mediaSm{
+    @media screen and (max-width:500px) {
         @content;
     }
 }
 
-@mixin mediaMd {
-    @media screen and (max-width: 768px){
+@mixin mediaMd{
+    @media screen and (max-width:768px) {
         @content;
     }
 }
 
-@mixin mediaLg {
-    @media screen and (min-width: 769px) and 
-    (max-width: 1170px){
+@mixin mediaLg{
+    @media screen and (min-width: 769px) and (max-width:1170px) {
         @content;
     }
 }
 
-@mixin mediaXl {
-    @media screen and (min-width: 1171px){
+@mixin mediaXl{
+    @media screen and (min-width:1171px) {
         @content;
     }
 }
